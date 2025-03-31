@@ -1,8 +1,16 @@
 fastapi
 uvicorn
+google-generativeai
+pydantic
+pillow
 sqlalchemy
-psycopg2
-torch
-opencv-python
 pandas
-python-dotenv
+prophet
+statsmodels
+xgboost
+numpy
+requests
+psycopg2-binary  # Required if using PostgreSQL
+mysqlclient  # Required if using MySQL (optional)
+orjson  # Fast JSON parsing (optional)
+python-multipart  # Needed for file uploads in FastAPI
