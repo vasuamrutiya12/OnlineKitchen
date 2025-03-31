@@ -28,7 +28,7 @@ models.Base.metadata.create_all(bind=engine)
 # ===========================
 # CONFIGURE GEMINI API
 # ===========================
-GEMINI_API_KEY = "AIzaSyAVyXObpQbzByr5NC0qVmSCz8t2MJ-dq5Y"  # Replace with a secure method
+GEMINI_API_KEY = "gemini-key"  # Replace with a secure method
 genai.configure(api_key=GEMINI_API_KEY)
 
 app = FastAPI()
